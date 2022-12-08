@@ -1,4 +1,4 @@
-package com.example.tutoriallistapp;
+package com.example.gotimetestsandbox;
 
 import androidx.appcompat.app.AppCompatActivity;
 

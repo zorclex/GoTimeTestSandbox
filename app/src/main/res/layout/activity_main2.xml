@@ -7,7 +7,7 @@
     tools:context=".MainActivity2">
 
     <EditText
-        android:id="@+id/editTextDes"
+        android:id="@+id/TextDescription"
         android:layout_width="401dp"
         android:layout_height="123dp"
         android:layout_marginTop="48dp"
@@ -20,38 +20,38 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTitle"
+        android:id="@+id/TextTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Title"
-        app:layout_constraintBottom_toTopOf="@+id/editTextDes"
-        app:layout_constraintEnd_toStartOf="@+id/editTextDate"
+        app:layout_constraintBottom_toTopOf="@+id/TextDescription"
+        app:layout_constraintEnd_toStartOf="@+id/TextTimeDate"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextDate"
+        android:id="@+id/TextTimeDate"
         android:layout_width="198dp"
         android:layout_height="49dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Date"
-        app:layout_constraintBottom_toTopOf="@+id/editTextDes"
+        app:layout_constraintBottom_toTopOf="@+id/TextDescription"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/editTextTitle" />
+        app:layout_constraintStart_toEndOf="@+id/TextTitle" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="48dp"
         android:clickable="true"
-        app:srcCompat="@android:drawable/ic_input_add"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteX="347dp"
-        tools:layout_editor_absoluteY="671dp"
-        tools:padding="50dp"
-        android:contentDescription="TODO" />
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:padding="50dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
